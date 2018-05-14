@@ -7,12 +7,27 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--
 	<link rel="shortcut icon" type="image/jpg" href="../images/favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="../style/landingPage1.css">
 	<link rel="stylesheet" type="text/css" href="../style/animate.css">
+	<script src="../js/reg_view.js"></script>
+-->
+
+
+		<link rel="shortcut icon" type="image/jpg" href="${pageContext.request.contextPath}/images/favicon.jpg">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/style/landingPage1.css">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/style/animate.css">
+		<!--
+		<script type = "text/javascript" src="${pageContext.request.contextPath}/js/reg_view.js"></script>
+-->
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<script src="../js/reg_view.js"></script>
+
+
+
 </head>
 <body>
 
@@ -36,7 +51,7 @@
 							<ul class="nav navbar-nav">
 								<li><a href=""><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 								<li><a href=""><i class="fab fa-amilia"></i> About Us</a></li>
-								
+
 								<li><a href=""><i class="fas fa-briefcase" aria-hidden="true"></i> Career</a></li>
 								<li><a href=""><i class="fas fa-address-book" aria-hidden="true"></i> Contact Us</a></li>
 								<li><a href=""><i class="fa fa-registered" aria-hidden="true"></i> Register</a></li>
@@ -83,10 +98,10 @@
 			</div>
 			<a class="left carousel-control" data-slide="prev" href="#media"><i class="fa fa-chevron-left"></i></a>
 			<a class="right carousel-control" data-slide="next" href="#media"><i class="fa fa-chevron-right"></i></a>
-		</div>	
+		</div>
 	</div>
 
-	
+
 	<div id="services" class="services">
 		<div class="container">
 			<h2>Services</h2>
@@ -113,7 +128,7 @@
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 
 	<div id="pricing" class="pricing">
@@ -127,11 +142,11 @@
 					<b>Monthly</b>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 					<hr>
-					<li>100 Users</li>	
-					<li>SSL Certficate</li>	
-					<li>My SQL</li>	
-					<li>100 Email</li>	
-					<button class="btn btn-success">Get started</button>	
+					<li>100 Users</li>
+					<li>SSL Certficate</li>
+					<li>My SQL</li>
+					<li>100 Email</li>
+					<button class="btn btn-success">Get started</button>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4">
@@ -141,11 +156,11 @@
 					<b>Monthly</b>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 					<hr>
-					<li>100 Users</li>	
-					<li>SSL Certficate</li>	
-					<li>My SQL</li>	
-					<li>100 Email</li>	
-					<button class="btn btn-success">Get started</button>	
+					<li>100 Users</li>
+					<li>SSL Certficate</li>
+					<li>My SQL</li>
+					<li>100 Email</li>
+					<button class="btn btn-success">Get started</button>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4">
@@ -155,11 +170,11 @@
 					<b>Monthly</b>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 					<hr>
-					<li>100 Users</li>	
-					<li>SSL Certficate</li>	
-					<li>My SQL</li>	
-					<li>100 Email</li>	
-					<button class="btn btn-success">Get started</button>	
+					<li>100 Users</li>
+					<li>SSL Certficate</li>
+					<li>My SQL</li>
+					<li>100 Email</li>
+					<button class="btn btn-success">Get started</button>
 				</div>
 			</div>
 
@@ -245,7 +260,7 @@
 
 		</div>
 
-	</div>	
+	</div>
 	<div id="contact" class="contact" >
 		<div class="container">
 			<div class="row">
@@ -277,15 +292,15 @@
 						</textarea>
 					</div>
 					<button class="btn btn-lg">Submit Your Message</button>
-					
 
-					
+
+
 				</div>
 
 			</div>
 
 		</div>
-		
+
 	</div>
 
 <div id="footer" class="footer" >
@@ -293,18 +308,18 @@
 <div class="row">
 	<div class="col-lg-4 col-md-4">
 	<h4>Contact Us</h4>
-	<p></p>	
+	<p></p>
 	</div>
 	<div class="col-lg-4 col-md-4">
-		
+
 	</div>
 	<div class="col-lg-4 col-md-4">
-		
+
 	</div>
 </div>
-	
+
 </div>
-	
-</div>		
+
+</div>
 </body>
 </html>
