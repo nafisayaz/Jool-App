@@ -41,7 +41,7 @@
 
 
   <welcome-file-list>
-    <welcome-file>/views/landingPage.jsp</welcome-file>
+    <welcome-file>/views/landingPage1.jsp</welcome-file>
   </welcome-file-list>
 
 </web-app>
