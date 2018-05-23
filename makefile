@@ -4,7 +4,7 @@ C_PATH=WEB-INF/classes
 
 MAIN_PATH=$(C_PATH);$(CLASSPATH)
 
-all: c_com c_jar compile jar
+all: c_com c_jar compile jar move close open
 
 c_com:
 	@echo "\033[01;35mCom-folder Cleaning..."
@@ -12,7 +12,7 @@ c_com:
 
 c_jar:
 	@echo "\033[01;31mJar-file Cleaning..."
-	rm -rf ../Jool-Application.war
+	rm -rf ../jool.war
 
 compile:
 	@echo "\033[01;32mJava-files Compiling..."
@@ -28,4 +28,21 @@ compile:
 
 jar:
 	@echo "\033[01;36mJar-file Creating..."
-	jar -cvf ../Jool-Application.war *
+	jar -cvf ../registration.war *
+
+move:
+	sudo mv ../registration.war /usr/apache/apache-tomcat-8.5.30/webapps/
+
+close:
+	chromium-browser -c www.jool.com/registration
+
+open:
+	chromium-browser www.jool.com/registration
+
+start:
+	sudo /usr/apache/apache-tomcat-8.5.30/bin/catalina.sh start
+
+stop:
+	sudo /usr/apache/apache-tomcat-8.5.30/bin/catalina.sh stop
+
+
